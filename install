@@ -1,0 +1,18 @@
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+brew install cask
+brew install mas
+brew install git
+
+cask 'rectangle'
+cask 'visual-studio-code'
+cask 'Google Chorme'
+cask 'Scroll Reverser'
+cask 'Paralles Desktop'
+
+mas 'KakaoTalk', id : 869223134
+mas 'line', id : 539883307
+mas 'Microsoft Excel', id : 462058435
+mas 'Microsoft word', id : 462054704
+mas 'Microsoft PowerPoint', id : 462062816
+mas 'Polaris Office, id : 1098211970
+
